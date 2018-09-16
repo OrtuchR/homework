@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="textView1">This is first text</string>
+    <string name="textView2">This is second text</string>
+    <string name="button1">Click to change</string>
+
+</resources>
