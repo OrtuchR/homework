@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Homework</string>
-    <string name="textView1">This is first text</string>
-    <string name="textView2">This is second text</string>
-    <string name="button1">Click to change</string>
-
+    <string name="textView1Text">This is first text</string>
+    <string name="textView2Text">This is second text</string>
+    <string name="button1Text">Click to change</string>
 </resources>

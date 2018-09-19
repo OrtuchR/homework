@@ -7,28 +7,23 @@
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
-        android:layout_height="200sp"
-        android:text="@string/textView1"
-        android:textSize="30sp"
-        android:gravity="center"
+        android:text="@string/textView1Text"
         android:background="@color/textView1BackColor"
+        style="@style/myTextView"
         />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="200sp"
-        android:text="@string/textView2"
-        android:textSize="30sp"
-        android:gravity="center"
+        android:text="@string/textView2Text"
         android:background="@color/textView2BackColor"
+        style="@style/myTextView"
         />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="200sp"
-        android:text="@string/button1"
-        android:textSize="30sp"
+        android:text="@string/button1Text"
+        style="@style/myButton"
         />
 </LinearLayout>
