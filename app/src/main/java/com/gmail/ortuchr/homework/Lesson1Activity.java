@@ -1,6 +1,7 @@
 package com.gmail.ortuchr.homework;
 
 import android.app.Activity;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -48,5 +49,8 @@ public class Lesson1Activity extends Activity implements View.OnClickListener {
         String str = String.valueOf(textView1.getText());
         textView1.setText(textView2.getText());
         textView2.setText(str);
+        ColorDrawable color = (ColorDrawable)textView1.getBackground();
+        textView1.setBackground((ColorDrawable)textView2.getBackground());
+        textView2.setBackground(color);
     }
 }
