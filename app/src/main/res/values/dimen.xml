@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--For All Activities-->
+    <dimen name="paddingVerticalLinearLayout">20dp</dimen>
+    <dimen name="paddingHorizontalLinearLayout">20dp</dimen>
+    <dimen name="paddingVerticalElement">10dp</dimen>
+    <dimen name="paddingHorizontalElement">10dp</dimen>
+    <dimen name="zeroLayout">0dp</dimen>
+    <dimen name="textSize">25sp</dimen>
+
+    <!--For MainActivity-->
+    <dimen name="marginVerticalTextView">10dp</dimen>
+    <dimen name="marginHorizontalTextView">20dp</dimen>
+    <dimen name="drawableHeight">30dp</dimen>
+    <dimen name="drawableWeight">50dp</dimen>
+    <dimen name="drawablePadding">10dp</dimen>
+
+    <!--For OnClickActivity-->
+    <dimen name="editTextLayoutWeight">2</dimen>
+    <dimen name="buttonLayoutWeight">1</dimen>
+
+    <!--For FlagsActivity-->
+    <dimen name="flagWidth">210dp</dimen>
+    <dimen name="flagHeight">140dp</dimen>
+    <dimen name="flagMarginTop">20dp</dimen>
+    <dimen name="flagDenmarkWidthOfStrip">20dp</dimen>
+    <dimen name="flagDenmarkWidthOfSquare">60dp</dimen>
+</resources>

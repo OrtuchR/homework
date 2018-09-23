@@ -1,6 +1,22 @@
 <resources>
+    <!--For all app-->
     <string name="app_name">Homework</string>
+
+    <!--For MainActivity-->
+    <string name="StartHomework1"><i>Homework_1\n(OnClickListener)</i></string>
+    <string name="StartHomework2"><i>Homework_2\n(Flags of countries)</i></string>
+    <string name="StartHomework3"><i>Homework_3\n(Load Picture)</i></string>
+
+    <!--For OnClickActivity-->
     <string name="textView1Text">This is first text</string>
     <string name="textView2Text">This is second text</string>
     <string name="button1Text">Click to change</string>
+
+    <!--For LoadPictureActivity-->
+    <string name="loadURLText">Enter URL of the picture</string>
+    <string name="loadButton">Load image</string>
+    <string name="loadURL">https://sites.google.com/site/prirodanasevseegooglgfgf/_/rsrc/1463456237313/home/priroda_gory_nebo_ozero_oblaka_81150_1920x1080.jpg</string>
+
+
+
 </resources>

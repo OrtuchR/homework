@@ -8,17 +8,43 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="myTextView">
-        <item name="android:layout_height">0sp</item>
-        <item name="android:layout_weight">2</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:gravity">center</item>
+    <!--For MainActivity-->
+    <style name="mainScrollView">
+        <item name="android:background">@drawable/main_background</item>
+    </style>
+    <style name="mainLinearLayout">
+        <item name="android:paddingTop">@dimen/paddingVerticalLinearLayout</item>
+        <item name="android:paddingBottom">@dimen/paddingVerticalLinearLayout</item>
+    </style>
+    <style name="startHomework">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:layout_marginTop">@dimen/marginVerticalTextView</item>
+        <item name="android:layout_marginBottom">@dimen/marginVerticalTextView</item>
+        <item name="android:layout_marginLeft">@dimen/marginHorizontalTextView</item>
+        <item name="android:drawablePadding">@dimen/drawablePadding</item>
+        <item name="android:drawableLeft">@drawable/drawable_left_picture</item>
+        <item name="android:fontFamily">fantasy</item>
     </style>
 
+    <!--For OnClickActivity-->
+    <style name="myTextView">
+        <item name="android:layout_height">@dimen/zeroLayout</item>
+        <item name="android:layout_weight">@dimen/editTextLayoutWeight</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:gravity">center</item>
+    </style>
     <style name="myButton">
-        <item name="android:layout_height">0sp</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:layout_height">@dimen/zeroLayout</item>
+        <item name="android:layout_weight">@dimen/buttonLayoutWeight</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
+    <!--For FlagsActivity-->
+    <style name="separateFlag">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/flagHeight</item>
+        <item name="android:layout_marginTop">@dimen/flagMarginTop</item>
     </style>
 
 </resources>

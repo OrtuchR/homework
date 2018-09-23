@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/paddingVerticalLinearLayout"
+    android:paddingBottom="@dimen/paddingVerticalLinearLayout"
+    android:paddingStart="@dimen/paddingHorizontalLinearLayout"
+    android:paddingEnd="@dimen/paddingHorizontalLinearLayout">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:textSize="@dimen/textSize"
+        android:hint="@string/loadURLText"
+        android:background="@color/backgroundHiddenText"
+        android:inputType="textWebEditText"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:maxWidth="300dp"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="@dimen/textSize"
+        android:text="@string/loadButton"
+        android:textAllCaps="true"
+        android:background="@color/backgroundLoadButton"
+        android:paddingStart="@dimen/paddingHorizontalElement"
+        android:paddingEnd="@dimen/paddingHorizontalElement"/>
+
+</FrameLayout>

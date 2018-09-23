@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base application -->
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <!--For MainActivity-->
+    <color name="textColorWhite">#ffffff</color>
+
+    <!--For OnClickActivity-->
     <color name="textView1BackColor">#ede185</color>
     <color name="textView2BackColor">#fa4887</color>
+
+    <!--For FlagsActivity-->
+    <color name="simpleRed">#e71d12</color>
+    <color name="strongRed">#bc0a00</color>
+    <color name="paleRed">#d62a4d</color>
+    <color name="brightRed">#ec3312</color>
+    <color name="simpleBlack">#000000</color>
+    <color name="simpleWhite">#ffffff</color>
+    <color name="paleGreen">#0ca334</color>
+    <color name="strongGreen">#0b842b</color>
+    <color name="venYellow">#dec807</color>
+    <color name="simpleBlue">#023bf9</color>
+    <color name="strongBlue">#141dba</color>
+
+    <!--For LoadPictureActivity-->
+    <color name="backgroundHiddenText">#1ec8c8c8</color>
+    <color name="backgroundLoadButton">#0eb1e2</color>
 </resources>
