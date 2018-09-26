@@ -31,5 +31,12 @@
             android:layout_height="wrap_content"
             android:text="@string/StartHomework3" />
 
+        <TextView
+            android:id="@+id/startHomework4"
+            style="@style/startHomework"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/StartHomework4" />
+
     </LinearLayout>
 </ScrollView>

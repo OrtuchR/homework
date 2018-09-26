@@ -47,4 +47,16 @@
         <item name="android:layout_marginTop">@dimen/flagMarginTop</item>
     </style>
 
+    <!--For LoadPictureActivity-->
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/backgroundLoadButton</item>
+    </style>
+    <style name="loadButton">
+        <item name="android:background">@drawable/load_button</item>
+        <item name="android:paddingStart">@dimen/paddingHorizontalElement</item>
+        <item name="android:paddingEnd">@dimen/paddingHorizontalElement</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
 </resources>

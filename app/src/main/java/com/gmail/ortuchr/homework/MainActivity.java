@@ -4,8 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
+
+import com.squareup.leakcanary.LeakCanary;
 
 public class MainActivity extends Activity {
     @Override
@@ -21,6 +22,9 @@ public class MainActivity extends Activity {
 
         TextView startHomework3 = findViewById(R.id.startHomework3);
         startNewActivity(startHomework3, LoadPictureActivity.class);
+
+        //TextView startHomework4 = findViewById(R.id.startHomework4);
+        //startNewActivity(startHomework4, ???.class);
     }
 
     private void startNewActivity(TextView textView, final Class newClass) {
