@@ -1,4 +1,4 @@
-package com.gmail.ortuchr.homework;
+package com.gmail.ortuchr.homework.hw_03;
 
 import com.squareup.leakcanary.LeakCanary;
 

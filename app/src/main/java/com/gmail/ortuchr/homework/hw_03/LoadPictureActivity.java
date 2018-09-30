@@ -1,4 +1,4 @@
-package com.gmail.ortuchr.homework;
+package com.gmail.ortuchr.homework.hw_03;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
@@ -19,12 +19,14 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
+import com.gmail.ortuchr.homework.R;
 import com.squareup.picasso.Picasso;
 
 public class LoadPictureActivity extends Activity {
     private ProgressBar progressBar;
     private EditText editText;
     private ImageView imageView;
+    private Animation animation;
 
     @Override
     protected void onCreate(Bundle SavedInstanceState) {
@@ -36,7 +38,7 @@ public class LoadPictureActivity extends Activity {
         Button button = findViewById(R.id.button);
         Button buttonURL = findViewById(R.id.buttonURL);
         progressBar = findViewById(R.id.progressBar);
-        final Animation animation = AnimationUtils.loadAnimation(this, R.anim.load_button_animation);
+        animation = AnimationUtils.loadAnimation(this, R.anim.load_button_animation);
 
         //Set default URL
         buttonURL.setOnClickListener(new View.OnClickListener() {
@@ -78,5 +80,11 @@ public class LoadPictureActivity extends Activity {
                         into(imageView);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.scale_open_to_full, R.anim.scale_close_to_null);
     }
 }

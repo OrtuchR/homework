@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
-    <application android:name=".Application"
+    <application android:name=".hw_03.Application"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
 
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".hw_02.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,11 +21,15 @@
             </intent-filter>
         </activity>
         
-        <activity android:name=".OnClickActivity"/>
+        <activity android:name=".hw_01.OnClickActivity"/>
 
-        <activity android:name=".FlagsActivity"/>
+        <activity android:name=".hw_02.FlagsActivity"/>
 
-        <activity android:name=".LoadPictureActivity"/>
+        <activity android:name=".hw_03.LoadPictureActivity"/>
+
+        <activity android:name=".hw_04.AnimationActivity"/>
+
+        <activity android:name=".hw_05.ClockActivity"/>
 
     </application>
 </manifest>

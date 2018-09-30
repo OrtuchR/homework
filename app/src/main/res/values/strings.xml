@@ -6,7 +6,9 @@
     <string name="StartHomework1"><i>Homework_1\n(OnClickListener)</i></string>
     <string name="StartHomework2"><i>Homework_2\n(Flags of countries)</i></string>
     <string name="StartHomework3"><i>Homework_3\n(Load Picture)</i></string>
-    <string name="StartHomework4"><i>Homework_4\n(???)</i></string>
+    <string name="StartHomework4"><i>Homework_4\n(Animation)</i></string>
+    <string name="StartHomework5"><i>Homework_5\n(Analog clock)</i></string>
+
 
     <!--For OnClickActivity-->
     <string name="textView1Text">This is first text</string>
@@ -20,6 +22,9 @@
     <string name="loadURL">https://mirpozitiva.ru/uploads/posts/2016-09/medium/1474011210_15.jpg</string>
     <string name="loadError">Check you URL</string>
 
+    <!--For AnimationActivity-->
+    <string name="animEditText">Enter numbers</string>
+    <string name="animButton">Add</string>
 
 
 </resources>

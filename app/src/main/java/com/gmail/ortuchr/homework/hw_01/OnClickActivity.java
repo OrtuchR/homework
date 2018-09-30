@@ -1,4 +1,4 @@
-package com.gmail.ortuchr.homework;
+package com.gmail.ortuchr.homework.hw_01;
 
 import android.app.Activity;
 import android.graphics.drawable.ColorDrawable;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.gmail.ortuchr.homework.R;
 
 public class OnClickActivity extends Activity implements View.OnClickListener {
     private TextView textView1;
@@ -51,5 +53,11 @@ public class OnClickActivity extends Activity implements View.OnClickListener {
         ColorDrawable color = (ColorDrawable)textView1.getBackground();
         textView1.setBackground((ColorDrawable)textView2.getBackground());
         textView2.setBackground(color);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.scale_open_to_full, R.anim.scale_close_to_null);
     }
 }

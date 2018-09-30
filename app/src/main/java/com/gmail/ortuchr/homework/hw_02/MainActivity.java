@@ -1,4 +1,4 @@
-package com.gmail.ortuchr.homework;
+package com.gmail.ortuchr.homework.hw_02;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,7 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.squareup.leakcanary.LeakCanary;
+import com.gmail.ortuchr.homework.hw_04.AnimationActivity;
+import com.gmail.ortuchr.homework.hw_03.LoadPictureActivity;
+import com.gmail.ortuchr.homework.R;
+import com.gmail.ortuchr.homework.hw_01.OnClickActivity;
+import com.gmail.ortuchr.homework.hw_05.ClockActivity;
 
 public class MainActivity extends Activity {
     @Override
@@ -23,8 +27,11 @@ public class MainActivity extends Activity {
         TextView startHomework3 = findViewById(R.id.startHomework3);
         startNewActivity(startHomework3, LoadPictureActivity.class);
 
-        //TextView startHomework4 = findViewById(R.id.startHomework4);
-        //startNewActivity(startHomework4, ???.class);
+        TextView startHomework4 = findViewById(R.id.startHomework4);
+        startNewActivity(startHomework4, AnimationActivity.class);
+
+        TextView startHomework5 = findViewById(R.id.startHomework5);
+        startNewActivity(startHomework5, ClockActivity.class);
     }
 
     private void startNewActivity(TextView textView, final Class newClass) {
@@ -33,6 +40,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, newClass);
                 startActivity(intent);
+                overridePendingTransition(R.anim.translate_open_right_to_left, R.anim.translate_close_right_to_left);
             }
         });
     }

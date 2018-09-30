@@ -8,8 +8,8 @@
     <dimen name="marginVerticalElement">20dp</dimen>
     <dimen name="marginHorizontalElement">20dp</dimen>
     <dimen name="zeroLayout">0dp</dimen>
-    <dimen name="textSize">25sp</dimen>
-    <dimen name="textEditSize">30dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="textEditSize">25dp</dimen>
 
     <!--For MainActivity-->
     <dimen name="marginVerticalTextView">10dp</dimen>
