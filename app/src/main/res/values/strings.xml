@@ -8,6 +8,9 @@
     <string name="StartHomework3"><i>Homework_3\n(Load Picture)</i></string>
     <string name="StartHomework4"><i>Homework_4\n(Animation)</i></string>
     <string name="StartHomework5"><i>Homework_5\n(Analog clock)</i></string>
+    <string name="StartHomework6"><i>Homework_6\n(Service)</i></string>
+    <string name="StartHomework7"><i>Homework_7\n(Recycle View)</i></string>
+
 
 
     <!--For OnClickActivity-->
@@ -25,6 +28,14 @@
     <!--For AnimationActivity-->
     <string name="animEditText">Enter numbers</string>
     <string name="animButton">Add</string>
+
+    <!--For ServiceActivity-->
+    <string name="startServiceButtonOn">Turn WiFi on</string>
+    <string name="startServiceButtonOff">Turn WiFi off</string>
+    <string name="statusWiFiOn">WiFi enabled</string>
+    <string name="statusWiFiGoingOn">WiFi enabling</string>
+    <string name="statusWiFiOff">WiFi disabled</string>
+    <string name="statusWiFiGoingOff">WiFi disabling</string>
 
 
 </resources>

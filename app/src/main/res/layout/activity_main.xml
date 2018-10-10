@@ -35,5 +35,14 @@
             style="@style/startHomework"
             android:text="@string/StartHomework5" />
 
+        <TextView
+            android:id="@+id/startHomework6"
+            style="@style/startHomework"
+            android:text="@string/StartHomework6" />
+
+        <TextView
+            android:id="@+id/startHomework7"
+            style="@style/startHomework"
+            android:text="@string/StartHomework7" />
     </LinearLayout>
 </ScrollView>

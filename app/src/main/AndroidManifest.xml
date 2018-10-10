@@ -2,34 +2,38 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gmail.ortuchr.homework">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
 
-    <application android:name=".hw_03.Application"
+    <application
+        android:name=".hw_03.Application"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-
-        <activity
-            android:name=".hw_02.MainActivity">
+        android:theme="@style/AppTheme">
+        <activity android:name=".hw_02.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity android:name=".hw_01.OnClickActivity"/>
+        <activity android:name=".hw_01.OnClickActivity" />
+        <activity android:name=".hw_02.FlagsActivity" />
+        <activity android:name=".hw_03.LoadPictureActivity" />
+        <activity android:name=".hw_04.AnimationActivity" />
+        <activity android:name=".hw_05.ClockActivity" />
+        <activity android:name=".hw_06.ServiceActivity" />
 
-        <activity android:name=".hw_02.FlagsActivity"/>
+        <service
+            android:name=".hw_06.WifiService"
+            android:enabled="true"
+            android:exported="false" />
 
-        <activity android:name=".hw_03.LoadPictureActivity"/>
-
-        <activity android:name=".hw_04.AnimationActivity"/>
-
-        <activity android:name=".hw_05.ClockActivity"/>
-
+        <activity android:name=".hw_07.UserListActivity" />
     </application>
+
 </manifest>
