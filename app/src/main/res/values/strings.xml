@@ -37,5 +37,19 @@
     <string name="statusWiFiOff">WiFi disabled</string>
     <string name="statusWiFiGoingOff">WiFi disabling</string>
 
+    <!--For UserListActivity-->
+    <string name="userSearchText">Search user..</string>
+    <string name="userAddButtonText"><b>+</b></string>
+    <string name="userEditButton">Edit</string>
+    <string name="userDeleteButton">Delete</string>
+    <string name="userSaveChanges">Save changes</string>
+    <string name="userAddNewUser">Add new user</string>
+    <string name="userNewUrlHint">Enter URL user picture..</string>
+    <string name="userNewNameHint">Enter user name..</string>
+    <string name="userNewSurnameHint">Enter user surname..</string>
+    <string name="errorEmptyView">Check input data</string>
+    <string name="errorWrongUrl">Check picture URL</string>
+    <string name="errorEmptyList">No users in search..</string>
+
 
 </resources>

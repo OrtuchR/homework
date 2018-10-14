@@ -29,4 +29,8 @@
     <color name="backgroundHiddenText">#1ec8c8c8</color>
     <color name="backgroundLoadButton">#0eb1e2</color>
     <color name="backgroundLoadButtonPressed">#17c628</color>
+
+    <!--For UserListActivity-->
+    <color name="paleGrey">#dfdfdf</color>
+    <color name="simpleGrey">#aeaeae</color>
 </resources>

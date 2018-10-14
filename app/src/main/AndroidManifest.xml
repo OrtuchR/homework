@@ -33,7 +33,11 @@
             android:enabled="true"
             android:exported="false" />
 
-        <activity android:name=".hw_07.UserListActivity" />
+        <activity android:name=".hw_07.UserListActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".hw_07.EditUserActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".hw_07.ViewUserActivity"/>
     </application>
 
 </manifest>
