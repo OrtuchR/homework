@@ -1,38 +1,51 @@
 package com.gmail.ortuchr.homework.hw_07
 
-import android.app.Activity
-import android.graphics.drawable.Drawable
+import android.content.res.Configuration
 import android.os.Bundle
+import android.support.v4.app.Fragment
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import android.widget.LinearLayout
 import android.widget.Toast
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.DataSource
-import com.bumptech.glide.load.engine.GlideException
-import com.bumptech.glide.request.RequestListener
-import com.bumptech.glide.request.RequestOptions
-import com.bumptech.glide.request.target.Target
 import com.gmail.ortuchr.homework.R
-import java.io.IOException
-import java.net.MalformedURLException
-import java.net.URL
 
-class EditUserActivity : Activity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_user);
+class EditUserActivity : Fragment() {
+
+    companion object {
+        private const val USER_ID = "USER_ID"
+        fun getFragment(long: Long): EditUserActivity {
+            val fragment = EditUserActivity()
+            val bundle = Bundle()
+            bundle.putLong(USER_ID, long)
+            fragment.arguments = bundle
+            return fragment
+        }
+    }
+
+    private lateinit var userNewUrl: EditText
+    private lateinit var userNewName: EditText
+    private lateinit var userNewSurname: EditText
+    private lateinit var userApplyChangesButton: Button
+    private lateinit var linearLayoutEditUser: LinearLayout
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        val view: View = inflater.inflate(R.layout.activity_edit_user, container, false)
+        userNewUrl = view.findViewById(R.id.userNewUrl)
+        userNewName = view.findViewById(R.id.userNewName)
+        userNewSurname = view.findViewById(R.id.userNewSurname)
+        userApplyChangesButton = view.findViewById(R.id.buttonApplyChanges)
+        linearLayoutEditUser = view.findViewById(R.id.linearLayoutEditUser)
+
+        return view
     }
 
     override fun onStart() {
         super.onStart()
 
-        val userNewUrl = findViewById<EditText>(R.id.userNewUrl)
-        val userNewName = findViewById<EditText>(R.id.userNewName)
-        val userNewSurname = findViewById<EditText>(R.id.userNewSurname)
-        val userApplyChangesButton = findViewById<Button>(R.id.buttonApplyChanges)
-
-        val userId = intent.getLongExtra("USER_ID", 0)
+        val userId = arguments!!.getLong(USER_ID)
         if (userId == 0L) {
             userNewUrl.hint = getString(R.string.userNewUrlHint)
             userNewName.hint = getString(R.string.userNewNameHint)
@@ -61,8 +74,25 @@ class EditUserActivity : Activity() {
                     SingletonUserData.updateUser(userId, userNewName.text.toString(),
                             userNewSurname.text.toString(), userNewUrl.text.toString())
                 }
-                finish()
+
+                linearLayoutEditUser.removeView(userNewUrl)
+                linearLayoutEditUser.removeView(userNewName)
+                linearLayoutEditUser.removeView(userNewSurname)
+
+                if (isOrientationPortrait()) {
+                    fragmentManager?.popBackStack()
+                } else {
+                    val fragmentTransaction = fragmentManager!!.beginTransaction()
+                    fragmentTransaction.remove(this)
+                    fragmentTransaction.replace(R.id.fragmentUserList, UserListActivity.getFragment())
+                    fragmentTransaction.replace(R.id.fragmentUserEdit, ViewUserActivity.getFragment(userId))
+                    fragmentTransaction.commit()
+                }
             }
         }
+    }
+
+    private fun isOrientationPortrait(): Boolean {
+        return resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT
     }
 }

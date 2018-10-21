@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutEditUser"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="@dimen/paddingVerticalElement"
-    android:background="@color/simpleWhite">
+    android:background="@color/simpleWhite"
+    android:gravity="center_horizontal">
 
     <EditText
         android:id="@+id/userNewUrl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/userText"
-        android:layout_centerHorizontal="true"
+        android:inputType="textUri"
         android:layout_marginTop="@dimen/marginVerticalElement"/>
 
     <EditText
@@ -18,7 +21,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/userText"
-        android:layout_below="@+id/userNewUrl"
         android:layout_marginTop="@dimen/marginVerticalElement"/>
 
     <EditText
@@ -26,9 +28,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/userText"
-        android:layout_below="@+id/userNewName"
         android:layout_marginTop="@dimen/marginVerticalElement"/>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
     <Button
         android:id="@+id/buttonApplyChanges"
@@ -36,8 +41,6 @@
         android:layout_height="wrap_content"
         android:paddingStart="@dimen/paddingHorizontalElement"
         android:paddingEnd="@dimen/paddingHorizontalElement"
-        style="@style/userButton"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+        style="@style/userButton"/>
 
-</RelativeLayout>
+</LinearLayout>
