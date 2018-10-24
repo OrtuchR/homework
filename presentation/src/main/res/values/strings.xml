@@ -1,0 +1,57 @@
+<resources>
+    <!--For all app-->
+    <string name="app_name">Homework</string>
+
+    <!--For MainActivity-->
+    <string name="StartHomework1"><i>Homework_1\n(OnClickListener)</i></string>
+    <string name="StartHomework2"><i>Homework_2\n(Flags of countries)</i></string>
+    <string name="StartHomework3"><i>Homework_3\n(Load Picture)</i></string>
+    <string name="StartHomework4"><i>Homework_4\n(Animation)</i></string>
+    <string name="StartHomework5"><i>Homework_5\n(Analog clock)</i></string>
+    <string name="StartHomework6"><i>Homework_6\n(Service)</i></string>
+    <string name="StartHomework7"><i>Homework_7\n(Recycle View)</i></string>
+    <string name="StartHomework9"><i>Homework_9\n(Timer RX)</i></string>
+
+
+
+    <!--For OnClickActivity-->
+    <string name="textView1Text">This is first text</string>
+    <string name="textView2Text">This is second text</string>
+    <string name="button1Text">Click to change</string>
+
+    <!--For LoadPictureActivity-->
+    <string name="loadURLHint">Enter URL of the picture</string>
+    <string name="loadButton">Load image</string>
+    <string name="loadButtonAddDefaultURL">Add url</string>
+    <string name="loadURL">https://mirpozitiva.ru/uploads/posts/2016-09/medium/1474011210_15.jpg</string>
+    <string name="loadError">Check you URL</string>
+
+    <!--For AnimationActivity-->
+    <string name="animEditText">Enter numbers</string>
+    <string name="animButton">Add</string>
+
+    <!--For ServiceActivity-->
+    <string name="startServiceButtonOn">Turn WiFi on</string>
+    <string name="startServiceButtonOff">Turn WiFi off</string>
+    <string name="statusWiFiOn">WiFi enabled</string>
+    <string name="statusWiFiGoingOn">WiFi enabling</string>
+    <string name="statusWiFiOff">WiFi disabled</string>
+    <string name="statusWiFiGoingOff">WiFi disabling</string>
+
+    <!--For UserListActivity-->
+    <string name="userSearchText">Search user..</string>
+    <string name="userAddButtonText"><b>+</b></string>
+    <string name="userEditButton">Edit</string>
+    <string name="userDeleteButton">Delete</string>
+    <string name="userSaveChanges">Save changes</string>
+    <string name="userAddNewUser">Add new user</string>
+    <string name="userNewUrlHint">Enter URL user picture..</string>
+    <string name="userNewNameHint">Enter user name..</string>
+    <string name="userNewSurnameHint">Enter user surname..</string>
+    <string name="errorEmptyView">Check input data</string>
+    <string name="errorWrongUrl">Check picture URL</string>
+    <string name="errorEmptyList">No users in search..</string>
+
+    <!--For TimerRXActivity-->
+    <string name="timerCheckBoxText">only even</string>
+</resources>

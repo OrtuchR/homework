@@ -1,0 +1,350 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [com.android.databinding:adapters:3.2.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\adapters-3.2.1.aar\ef3b213cca7cc23621cf60cf56a9c639\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.2.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\library-3.2.1.aar\3a2756fa420d45d342d91283b2437f44\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\3ee96bf0a41b1db4d896c6a09dd77aa7\AndroidManifest.xml:17:1-25:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:17:1-72:12
+MERGED from [:data] C:\progs\android\Homework\data\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-9:12
+MERGED from [:domain] C:\progs\android\Homework\domain\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8ed5d367d3051731d55762ea2828d2dd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\57cdd3c2d03e7c2de1c3b2b99b4aaf3a\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\42c6d318cb4e8db1aa768d77e34d2770\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:17:1-30:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxbinding-kotlin-2.0.0.aar\dd9846c843603e41e7373b38cbe9ce6c\AndroidManifest.xml:2:1-8:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\d17367ef0142dfe103b32b8c45353257\AndroidManifest.xml:2:1-8:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.0.aar\d1932ae88a140cc8d51e56c842860374\AndroidManifest.xml:15:1-20:12
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.4] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\3d7ac8649eb432e2dceeb1ddc156e477\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\75ca3223b7df555ce946f2a71b37d82b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\d9aa4576ad5a97ea24d8c3843d5005e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\5e226df3fe459097b7ead944b71e8f52\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\fcfbc50431a08bfdbc311f81bcb4b759\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0d9fc2370f2c756ef478e2fda96b60a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\5554031c4137be5606ac54e547386ca5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\967613293b3960ab1bc516d5a731b3ef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\60f499e535fc4f63b9b693cdf1a9f79d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\ede4499b7c17cb5d0406b9e2861063e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\ff564d77c01188e30086acf4c0315f39\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d496c934b85b35986a306321dc24ed2d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6fc8c87a8110957e22441fedf5d14c47\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e5de3e24263417bdef412617f0095ea6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d010b796400615b52604236fa8f7944b\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8a00190d36a39762953793ab66d76377\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\b2a5510bdbc71462f376981628dbc897\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\16733293b72237d2fa25f4f088a521cc\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f57eb216d3d3e70d7c5dd0abbd1a5150\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\26d8ee7caa043021570289b0974b3128\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\fb163365987beb64ad6dcb693fd38795\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\1d777ce7320886f992fe418dd045c033\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\069147bc0f2c45a2b239365963273b1e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7993cf482f0bb9a6405955df8a38d7c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\1a27db098926113b1e0cc43b26dd6baf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d3c0778def6475e492c5d30bc1f5eb60\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f09d8d7074616382e871a5e317c7e203\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6e41966abfbb4e1971deeea341b0e34a\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:7:22-73
+application
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:9:5-39:19
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\3ee96bf0a41b1db4d896c6a09dd77aa7\AndroidManifest.xml:22:5-23:19
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\3ee96bf0a41b1db4d896c6a09dd77aa7\AndroidManifest.xml:22:5-23:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:26:5-70:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:26:5-70:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\57cdd3c2d03e7c2de1c3b2b99b4aaf3a\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\57cdd3c2d03e7c2de1c3b2b99b4aaf3a\AndroidManifest.xml:10:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:22:5-28:19
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.4] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\3d7ac8649eb432e2dceeb1ddc156e477\AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.4] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\3d7ac8649eb432e2dceeb1ddc156e477\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d010b796400615b52604236fa8f7944b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d010b796400615b52604236fa8f7944b\AndroidManifest.xml:22:5-94
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\b2a5510bdbc71462f376981628dbc897\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\b2a5510bdbc71462f376981628dbc897\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\16733293b72237d2fa25f4f088a521cc\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\16733293b72237d2fa25f4f088a521cc\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\26d8ee7caa043021570289b0974b3128\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\26d8ee7caa043021570289b0974b3128\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d010b796400615b52604236fa8f7944b\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:12:9-36
+	android:allowBackup
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:10:9-71
+activity#com.gmail.ortuchr.homework.presentation.screen.homework.hw_02.MainActivity
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:17:19-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:21:27-74
+activity#com.gmail.ortuchr.homework.presentation.screen.homework.hw_01.OnClickActivity
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:24:9-88
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:24:19-85
+activity#com.gmail.ortuchr.homework.presentation.screen.homework.hw_02.FlagsActivity
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:25:9-86
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:25:19-83
+activity#com.gmail.ortuchr.homework.presentation.screen.homework.hw_03.LoadPictureActivity
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:26:9-92
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:26:19-89
+activity#com.gmail.ortuchr.homework.presentation.screen.homework.hw_04.AnimationActivity
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:27:9-90
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:27:19-87
+activity#com.gmail.ortuchr.homework.presentation.screen.homework.hw_05.ClockActivity
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:28:9-86
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:28:19-83
+activity#com.gmail.ortuchr.homework.presentation.screen.homework.hw_06.ServiceActivity
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:29:9-88
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:29:19-85
+service#com.gmail.ortuchr.homework.presentation.screen.homework.hw_06.WifiService
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:31:9-34:40
+	android:enabled
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:33:13-35
+	android:exported
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:32:13-75
+activity#com.gmail.ortuchr.homework.presentation.screen.homework.hw_07.UsersActivity
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:36:9-37:69
+	android:windowSoftInputMode
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:37:13-67
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:36:19-83
+activity#com.gmail.ortuchr.homework.presentation.screen.homework.hw_09.TimerRxActivity
+ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:38:9-87
+	android:name
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml:38:19-85
+uses-sdk
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:3.2.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\adapters-3.2.1.aar\ef3b213cca7cc23621cf60cf56a9c639\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.2.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\adapters-3.2.1.aar\ef3b213cca7cc23621cf60cf56a9c639\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\library-3.2.1.aar\3a2756fa420d45d342d91283b2437f44\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\library-3.2.1.aar\3a2756fa420d45d342d91283b2437f44\AndroidManifest.xml:22:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\3ee96bf0a41b1db4d896c6a09dd77aa7\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\3ee96bf0a41b1db4d896c6a09dd77aa7\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:20:5-44
+MERGED from [:data] C:\progs\android\Homework\data\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:data] C:\progs\android\Homework\data\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:domain] C:\progs\android\Homework\domain\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:domain] C:\progs\android\Homework\domain\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8ed5d367d3051731d55762ea2828d2dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8ed5d367d3051731d55762ea2828d2dd\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\57cdd3c2d03e7c2de1c3b2b99b4aaf3a\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\57cdd3c2d03e7c2de1c3b2b99b4aaf3a\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\42c6d318cb4e8db1aa768d77e34d2770\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\42c6d318cb4e8db1aa768d77e34d2770\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxbinding-kotlin-2.0.0.aar\dd9846c843603e41e7373b38cbe9ce6c\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxbinding-kotlin-2.0.0.aar\dd9846c843603e41e7373b38cbe9ce6c\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\d17367ef0142dfe103b32b8c45353257\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\d17367ef0142dfe103b32b8c45353257\AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.0.aar\d1932ae88a140cc8d51e56c842860374\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.0.aar\d1932ae88a140cc8d51e56c842860374\AndroidManifest.xml:18:5-43
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.4] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\3d7ac8649eb432e2dceeb1ddc156e477\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.4] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\3d7ac8649eb432e2dceeb1ddc156e477\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\75ca3223b7df555ce946f2a71b37d82b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\75ca3223b7df555ce946f2a71b37d82b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\d9aa4576ad5a97ea24d8c3843d5005e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\d9aa4576ad5a97ea24d8c3843d5005e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\5e226df3fe459097b7ead944b71e8f52\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\5e226df3fe459097b7ead944b71e8f52\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\fcfbc50431a08bfdbc311f81bcb4b759\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\fcfbc50431a08bfdbc311f81bcb4b759\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0d9fc2370f2c756ef478e2fda96b60a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0d9fc2370f2c756ef478e2fda96b60a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\5554031c4137be5606ac54e547386ca5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\5554031c4137be5606ac54e547386ca5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\967613293b3960ab1bc516d5a731b3ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\967613293b3960ab1bc516d5a731b3ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\60f499e535fc4f63b9b693cdf1a9f79d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\60f499e535fc4f63b9b693cdf1a9f79d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\ede4499b7c17cb5d0406b9e2861063e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\ede4499b7c17cb5d0406b9e2861063e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\ff564d77c01188e30086acf4c0315f39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\ff564d77c01188e30086acf4c0315f39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d496c934b85b35986a306321dc24ed2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d496c934b85b35986a306321dc24ed2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6fc8c87a8110957e22441fedf5d14c47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6fc8c87a8110957e22441fedf5d14c47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e5de3e24263417bdef412617f0095ea6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e5de3e24263417bdef412617f0095ea6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d010b796400615b52604236fa8f7944b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d010b796400615b52604236fa8f7944b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8a00190d36a39762953793ab66d76377\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8a00190d36a39762953793ab66d76377\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\b2a5510bdbc71462f376981628dbc897\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\b2a5510bdbc71462f376981628dbc897\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\16733293b72237d2fa25f4f088a521cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\16733293b72237d2fa25f4f088a521cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f57eb216d3d3e70d7c5dd0abbd1a5150\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f57eb216d3d3e70d7c5dd0abbd1a5150\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\26d8ee7caa043021570289b0974b3128\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\26d8ee7caa043021570289b0974b3128\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\fb163365987beb64ad6dcb693fd38795\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\fb163365987beb64ad6dcb693fd38795\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\1d777ce7320886f992fe418dd045c033\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\1d777ce7320886f992fe418dd045c033\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\069147bc0f2c45a2b239365963273b1e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\069147bc0f2c45a2b239365963273b1e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7993cf482f0bb9a6405955df8a38d7c9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7993cf482f0bb9a6405955df8a38d7c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\1a27db098926113b1e0cc43b26dd6baf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\1a27db098926113b1e0cc43b26dd6baf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d3c0778def6475e492c5d30bc1f5eb60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d3c0778def6475e492c5d30bc1f5eb60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f09d8d7074616382e871a5e317c7e203\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f09d8d7074616382e871a5e317c7e203\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6e41966abfbb4e1971deeea341b0e34a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6e41966abfbb4e1971deeea341b0e34a\AndroidManifest.xml:20:5-44
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+		ADDED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+		INJECTED from C:\progs\android\Homework\presentation\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:24:22-78
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:31:9-34:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:34:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:32:13-70
+provider#com.squareup.leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:38:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:37:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:41:13-43:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:43:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:42:17-67
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:46:9-59:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:51:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:48:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:50:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:49:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:53:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:52:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:47:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:60:9-69:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:66:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:62:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:65:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:63:13-46
+	android:roundIcon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:67:13-57
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:64:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:69:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:68:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\8474f103346616a006f6c5dba34beb97\AndroidManifest.xml:61:13-93
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Roma\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e47295a3fa9b266339caeaa6611ca73b\AndroidManifest.xml:24:13-83
