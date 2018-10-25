@@ -7,35 +7,35 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
 
     <application
-        android:name=".presentation.screen.homework.hw_03.Application"
+        android:name=".presentation.screen.homework.hw03.Application"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".presentation.screen.homework.hw_02.MainActivity">
+        <activity android:name=".presentation.screen.homework.hw02.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".presentation.screen.homework.hw_01.OnClickActivity" />
-        <activity android:name=".presentation.screen.homework.hw_02.FlagsActivity" />
-        <activity android:name=".presentation.screen.homework.hw_03.LoadPictureActivity" />
-        <activity android:name=".presentation.screen.homework.hw_04.AnimationActivity" />
-        <activity android:name=".presentation.screen.homework.hw_05.ClockActivity" />
-        <activity android:name=".presentation.screen.homework.hw_06.ServiceActivity" />
+        <activity android:name=".presentation.screen.homework.hw01.OnClickActivity" />
+        <activity android:name=".presentation.screen.homework.hw02.FlagsActivity" />
+        <activity android:name=".presentation.screen.homework.hw03.LoadPictureActivity" />
+        <activity android:name=".presentation.screen.homework.hw04.AnimationActivity" />
+        <activity android:name=".presentation.screen.homework.hw05.ClockActivity" />
+        <activity android:name=".presentation.screen.homework.hw06.ServiceActivity" />
 
         <service
-            android:name=".presentation.screen.homework.hw_06.WifiService"
+            android:name=".presentation.screen.homework.hw06.WifiService"
             android:enabled="true"
             android:exported="false" />
 
-        <activity android:name=".presentation.screen.homework.hw_07.UsersActivity"
+        <activity android:name=".presentation.screen.homework.hw07.UsersActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"/>
-        <activity android:name=".presentation.screen.homework.hw_09.TimerRxActivity"/>
+        <activity android:name=".presentation.screen.homework.hw09.TimerRxActivity"/>
     </application>
 
 </manifest>

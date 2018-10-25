@@ -105,7 +105,7 @@ public final class R {
         public static final int text = 0x7f0700a8;
         public static final int text2 = 0x7f0700a9;
         public static final int time = 0x7f0700b1;
-        public static final int title = 0x7f0700b3;
+        public static final int title = 0x7f0700b4;
     }
     public static final class integer {
         private integer() {}

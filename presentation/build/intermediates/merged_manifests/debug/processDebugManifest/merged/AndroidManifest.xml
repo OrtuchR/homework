@@ -17,7 +17,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_03.Application"
+        android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw03.Application"
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
@@ -27,29 +27,29 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_02.MainActivity" >
+        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw02.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_01.OnClickActivity" />
-        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_02.FlagsActivity" />
-        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_03.LoadPictureActivity" />
-        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_04.AnimationActivity" />
-        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_05.ClockActivity" />
-        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_06.ServiceActivity" />
+        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw01.OnClickActivity" />
+        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw02.FlagsActivity" />
+        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw03.LoadPictureActivity" />
+        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw04.AnimationActivity" />
+        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw05.ClockActivity" />
+        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw06.ServiceActivity" />
 
         <service
-            android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_06.WifiService"
+            android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw06.WifiService"
             android:enabled="true"
             android:exported="false" />
 
         <activity
-            android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_07.UsersActivity"
+            android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw07.UsersActivity"
             android:windowSoftInputMode="stateHidden|adjustResize" />
-        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw_09.TimerRxActivity" />
+        <activity android:name="com.gmail.ortuchr.homework.presentation.screen.homework.hw09.TimerRxActivity" />
 
         <service
             android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"

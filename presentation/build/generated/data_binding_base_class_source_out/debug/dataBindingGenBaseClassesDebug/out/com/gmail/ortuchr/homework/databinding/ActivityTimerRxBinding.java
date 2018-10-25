@@ -9,10 +9,14 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.TextView;
-import com.gmail.ortuchr.homework.presentation.screen.homework.hw_09.TimerRxViewModel;
+import com.gmail.ortuchr.homework.presentation.screen.homework.hw09.TimerRxViewModel;
 
 public abstract class ActivityTimerRxBinding extends ViewDataBinding {
+  @NonNull
+  public final CheckBox timerCheckBox;
+
   @NonNull
   public final TextView timerTextView;
 
@@ -20,8 +24,9 @@ public abstract class ActivityTimerRxBinding extends ViewDataBinding {
   protected TimerRxViewModel mViewModel;
 
   protected ActivityTimerRxBinding(DataBindingComponent _bindingComponent, View _root,
-      int _localFieldCount, TextView timerTextView) {
+      int _localFieldCount, CheckBox timerCheckBox, TextView timerTextView) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.timerCheckBox = timerCheckBox;
     this.timerTextView = timerTextView;
   }
 

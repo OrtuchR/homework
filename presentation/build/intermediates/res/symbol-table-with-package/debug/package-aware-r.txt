@@ -865,6 +865,7 @@ id textViewUserName
 id textViewUserSurname
 id textWatcher
 id time
+id timerCheckBox
 id timerTextView
 id title
 id titleDividerNoCustom
