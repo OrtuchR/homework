@@ -49,5 +49,10 @@
             android:id="@+id/startHomework9"
             style="@style/startHomework"
             android:text="@string/StartHomework9" />
+
+        <TextView
+            android:id="@+id/startHomework10"
+            style="@style/startHomework"
+            android:text="@string/StartHomework10" />
     </LinearLayout>
 </ScrollView>

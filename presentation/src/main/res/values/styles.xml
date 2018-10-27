@@ -85,4 +85,13 @@
         <item name="android:singleLine">true</item>
     </style>
 
+    <!--For PersonInfoActivity-->
+    <style name="personInfoTextView">
+        <item name="android:textSize">@dimen/textSizeBig</item>
+        <item name="android:textColor">@color/simpleBlack</item>
+        <item name="android:background">@drawable/text_view_border</item>
+        <item name="android:padding">@dimen/drawablePadding</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
 </resources>

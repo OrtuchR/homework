@@ -11,7 +11,7 @@
     <string name="StartHomework6"><i>Homework_6\n(Service)</i></string>
     <string name="StartHomework7"><i>Homework_7\n(Recycle View)</i></string>
     <string name="StartHomework9"><i>Homework_9\n(Timer RX)</i></string>
-
+    <string name="StartHomework10"><i>Homework_10\n(Person info)</i></string>
 
 
     <!--For OnClickActivity-->

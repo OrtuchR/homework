@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:text="@{viewModel.timerTextView}"
             android:textColor="@color/simpleRed"
-            android:textSize="40sp"/>
+            android:textSize="@dimen/textSizeBig"/>
 
         <CheckBox
             android:id="@+id/timerCheckBox"
