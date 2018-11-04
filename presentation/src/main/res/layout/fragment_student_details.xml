@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.gmail.ortuchr.homework.presentation.screen.homework.hw11.details.StudentDetailsViewModel" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/simpleWhite">
+
+        <ImageView
+            android:id="@+id/imageViewStudent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:imageURL="@{viewModel.editTextStudentUrl}"
+            app:layout_constraintBottom_toTopOf="@+id/guideline8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+        <EditText
+            android:id="@+id/editTextStudentName"
+            style="@style/studentInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@={viewModel.editTextStudentName}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextStudentUrl" />
+
+        <EditText
+            android:id="@+id/editTextStudentAge"
+            style="@style/studentInfoTextView"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@={viewModel.editTextStudentAge}"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/editTextStudentName" />
+
+        <EditText
+            android:id="@+id/editTextStudentUrl"
+            style="@style/studentInfoTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:inputType="textUri"
+            android:text="@={viewModel.editTextStudentUrl}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/studentInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/simpleWhite"
+            android:text="@string/textYearsOld"
+            app:layout_constraintBaseline_toBaselineOf="@+id/editTextStudentAge"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/buttonDeleteStudent"
+            style="@style/studentButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonDelete"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            visibility="@{viewModel.isStudentExist}"
+            android:onClick="@{() -> viewModel.deleteStudent()}"/>
+
+        <Button
+            android:id="@+id/buttonUpdateStudent"
+            style="@style/studentButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonUpdate"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            visibility="@{viewModel.isStudentExist}"
+            android:onClick="@{() -> viewModel.updateStudent()}"/>
+
+        <Button
+            android:id="@+id/buttonAddStudent"
+            style="@style/studentButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonAdd"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            visibility="@{!viewModel.isStudentExist}"
+            android:onClick="@{() -> viewModel.addStudent()}"/>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/studentButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:visibility="@{viewModel.isProgressEnabled}" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.05" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

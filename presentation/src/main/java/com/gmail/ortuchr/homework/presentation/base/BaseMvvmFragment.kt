@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.gmail.ortuchr.homework.BR
 
 abstract class BaseMvvmFragment<VM : BaseViewModel<R>,
         R : BaseRouter<*>,
@@ -15,7 +16,7 @@ abstract class BaseMvvmFragment<VM : BaseViewModel<R>,
     protected lateinit var binding: B
     protected var router: R? = null
 
-    abstract fun prodiveViewModel(): VM
+    abstract fun provideViewModel(): VM
 
     abstract fun provideLayoutId(): Int
 
@@ -23,8 +24,8 @@ abstract class BaseMvvmFragment<VM : BaseViewModel<R>,
                               savedInstanceState: Bundle?): View? {
         binding = DataBindingUtil.inflate(inflater, provideLayoutId(),
                 container, false)
-
-        viewModel = prodiveViewModel()
+        viewModel = provideViewModel()
+        binding.setVariable(BR.viewModel, viewModel)
 
         return binding.root
     }

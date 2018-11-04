@@ -15,6 +15,7 @@ import com.gmail.ortuchr.homework.presentation.screen.homework.hw06.ServiceActiv
 import com.gmail.ortuchr.homework.presentation.screen.homework.hw07.UsersActivity;
 import com.gmail.ortuchr.homework.presentation.screen.homework.hw09.TimerRxActivity;
 import com.gmail.ortuchr.homework.presentation.screen.homework.hw10.PersonInfoActivity;
+import com.gmail.ortuchr.homework.presentation.screen.homework.hw11.StudentActivity;
 
 public class MainActivity extends Activity {
     @Override
@@ -48,6 +49,9 @@ public class MainActivity extends Activity {
 
         TextView startHomework10 = findViewById(R.id.startHomework10);
         startNewActivity(startHomework10, PersonInfoActivity.class);
+
+        TextView startHomework11 = findViewById(R.id.startHomework11);
+        startNewActivity(startHomework11, StudentActivity.class);
     }
 
     private void startNewActivity(TextView textView, final Class newClass) {

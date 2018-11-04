@@ -37,6 +37,8 @@
             android:windowSoftInputMode="stateHidden|adjustResize"/>
         <activity android:name=".presentation.screen.homework.hw09.TimerRxActivity"/>
         <activity android:name=".presentation.screen.homework.hw10.PersonInfoActivity"/>
+        <activity android:name=".presentation.screen.homework.hw11.StudentActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
     </application>
 
 </manifest>

@@ -12,6 +12,7 @@
     <string name="StartHomework7"><i>Homework_7\n(Recycle View)</i></string>
     <string name="StartHomework9"><i>Homework_9\n(Timer RX)</i></string>
     <string name="StartHomework10"><i>Homework_10\n(Person info)</i></string>
+    <string name="StartHomework11"><i>Homework_11\n(Student list)</i></string>
 
 
     <!--For OnClickActivity-->
@@ -54,4 +55,15 @@
 
     <!--For TimerRXActivity-->
     <string name="timerCheckBoxText">only even</string>
+
+    <!--For StudentListActivity-->
+    <string name="textAge">Age: </string>
+    <string name="textYearsOld"> years old</string>
+    <string name="studentNameHint">Enter name ..</string>
+    <string name="studentAgeHint">Enter age ..</string>
+    <string name="studentUrlHint">Enter url ..</string>
+    <string name="buttonDelete">Delete</string>
+    <string name="buttonUpdate">Update</string>
+    <string name="buttonAdd">Add</string>
 </resources>
+

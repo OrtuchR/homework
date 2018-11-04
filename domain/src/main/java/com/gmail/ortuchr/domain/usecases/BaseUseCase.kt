@@ -1,4 +1,4 @@
 package com.gmail.ortuchr.domain.usecases
 
-class BaseUseCase {
+abstract class BaseUseCase {
 }
