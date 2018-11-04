@@ -1,9 +1,8 @@
 package com.gmail.ortuchr.homework.presentation.screen.homework.hw11.list
 
 import android.databinding.ObservableBoolean
-import android.util.Log
 import com.gmail.ortuchr.domain.entity.hw11.StudentSearch
-import com.gmail.ortuchr.homework.fuctories.hw11.UseCaseProvider
+import com.gmail.ortuchr.homework.factories.hw11.UseCaseProvider
 import com.gmail.ortuchr.homework.presentation.base.BaseViewModel
 import com.gmail.ortuchr.homework.presentation.screen.homework.hw11.StudentRouter
 import com.gmail.ortuchr.homework.presentation.utils.StudentListAdapter

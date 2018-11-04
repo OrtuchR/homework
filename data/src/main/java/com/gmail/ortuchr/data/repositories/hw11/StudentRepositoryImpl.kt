@@ -2,6 +2,8 @@ package com.gmail.ortuchr.data.repositories.hw11
 
 import android.os.SystemClock
 import android.util.Log
+import com.gmail.ortuchr.data.entity.transformToDomain
+import com.gmail.ortuchr.data.net.RestService
 import com.gmail.ortuchr.domain.entity.hw11.Student
 import com.gmail.ortuchr.domain.entity.hw11.StudentAdd
 import com.gmail.ortuchr.domain.entity.hw11.StudentDelete
@@ -10,9 +12,34 @@ import com.gmail.ortuchr.domain.repositories.hw11.StudentRepository
 import io.reactivex.Completable
 import io.reactivex.Observable
 
-class StudentRepositoryImpl : StudentRepository {
+class StudentRepositoryImpl(val apiService: RestService) : StudentRepository {
+    override fun get(): Observable<List<Student>> {
+        return apiService.getStudents()
+                .map { list ->
+                    list.map { student -> student.transformToDomain() }
+                }}
 
-    companion object {
+    override fun get(id: String): Observable<Student> {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun search(search: StudentSearch): Observable<List<Student>> {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun update(student: Student): Completable {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun delete(delete: StudentDelete): Completable {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun add(add: StudentAdd): Completable {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    /*companion object {
         val list = mutableListOf<Student>()
     }
 
@@ -81,5 +108,5 @@ class StudentRepositoryImpl : StudentRepository {
     override fun add(add: StudentAdd): Completable {
         list.add(Student(SystemClock.currentThreadTimeMillis().toString(), add.name, add.age, add.url))
         return Completable.complete()
-    }
+    }*/
 }
