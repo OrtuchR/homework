@@ -2,10 +2,7 @@ package com.gmail.ortuchr.data.entity
 
 import com.google.gson.annotations.SerializedName
 
-data class StudentRequest(
-        @SerializedName("objectId")
-        val id: String,
-
+data class StudentAddRequest (
         @SerializedName("name")
         val name: String,
 

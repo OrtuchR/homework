@@ -37,18 +37,32 @@ class StudentListViewModel : BaseViewModel<StudentRouter>() {
 
     fun search(search: String) {
         if (isProgressEnabled.get()) return
-
-        val studentSearch = StudentSearch(search)
-        val disposable = searchStudentsUseCase.search(studentSearch)
-                .subscribeBy(
-                        onNext = {
-                            adapter.setData(it)
-                        },
-                        onError = {
-                            router?.showError(it)
-                        }
-                )
-        addToDisposable(disposable)
+        if (search.isEmpty()) {
+            val disposable = studentListUseCase.get()
+                    .subscribeBy(
+                            onNext = {
+                                isProgressEnabled.set(false)
+                                adapter.setData(it)
+                            },
+                            onError = {
+                                isProgressEnabled.set(false)
+                                router?.showError(it)
+                            }
+                    )
+            addToDisposable(disposable)
+        } else {
+            val studentSearch = StudentSearch(search)
+            val disposable = searchStudentsUseCase.search(studentSearch)
+                    .subscribeBy(
+                            onNext = {
+                                adapter.setData(it)
+                            },
+                            onError = {
+                                router?.showError(it)
+                            }
+                    )
+            addToDisposable(disposable)
+        }
     }
 
     fun addNewUser() {

@@ -1,8 +1,9 @@
 package com.gmail.ortuchr.data.net
 
-import com.gmail.ortuchr.data.entity.StudentRequest
-import com.gmail.ortuchr.data.entity.StudentResponse
+import android.util.Log
+import com.gmail.ortuchr.data.entity.*
 import com.google.gson.Gson
+import io.reactivex.Completable
 import io.reactivex.Observable
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -22,7 +23,8 @@ class RestService(private val apiUrl: String) {
                 .writeTimeout(30, TimeUnit.SECONDS)
                 .connectTimeout(30, TimeUnit.SECONDS)
 
-        okHttpBuilder.addInterceptor(HttpLoggingInterceptor())
+        okHttpBuilder.addInterceptor(HttpLoggingInterceptor()
+                .setLevel(HttpLoggingInterceptor.Level.BODY))
 
         val gson = Gson()
 
@@ -44,11 +46,19 @@ class RestService(private val apiUrl: String) {
         return restApi.getStudentsById(id)
     }
 
-    fun updateStudent(student: StudentRequest) : Observable<StudentResponse> {
-        return restApi.updateStudent(student)
+    fun updateStudent(student: StudentRequest) : Completable {
+        return restApi.updateStudent(student.id, student)
     }
 
-    fun deleteStudent(id: String) : Observable<Void> {
-        return restApi.deleteStudent(id)
+    fun deleteStudent(student: StudentDeleteRequest) : Completable {
+        return restApi.deleteStudent(student.id)
+    }
+
+    fun addStudent(student: StudentAddRequest) : Completable {
+        return restApi.addStudent(student)
+    }
+
+    fun searchStudents(student: StudentSearchRequest) : Observable<List<StudentResponse>> {
+        return restApi.searchStudents(transformToSearchName(student.name))
     }
 }

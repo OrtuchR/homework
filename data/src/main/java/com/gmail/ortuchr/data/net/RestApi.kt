@@ -1,38 +1,29 @@
 package com.gmail.ortuchr.data.net
 
-import com.gmail.ortuchr.data.entity.StudentDeleteRequest
-import com.gmail.ortuchr.data.entity.StudentRequest
-import com.gmail.ortuchr.data.entity.StudentResponse
+import com.gmail.ortuchr.data.entity.*
+import io.reactivex.Completable
 import io.reactivex.Observable
+import retrofit2.Call
 import retrofit2.http.*
 
 interface RestApi {
 
-    @GET("students")
+    @GET("Students?sortBy=name")
     fun getStudents() : Observable<List<StudentResponse>>
 
-    // https://tut.by/api/students?id=dsfsdf
-    @GET("students")
-    fun getStudentsById(@Query("id") id: String) : Observable<StudentResponse>
+    @GET("Students/{id}")
+    fun getStudentsById(@Path("id") id: String) : Observable<StudentResponse>
 
-    // https://tut.by/api/students/21321/
-    @GET("students/{id}/")
-    fun getStudentsById2(@Path("id") id: String) : Observable<StudentResponse>
-
-    // https://tut.by/api/students
-    @POST("students")
-    fun updateStudent(@Body student: StudentRequest) : Observable<StudentResponse>
-
-    // https://tut.by/api/students/21321/
-    @POST("students/{id}/")
+    @PUT("Students/{id}")
     fun updateStudent(@Path("id") id: String,
-                      @Body student: StudentRequest) : Observable<StudentResponse>
+                      @Body student: StudentRequest) : Completable
 
-    // https://tut.by/api/students/21321/
-    @DELETE("students/{id}/")
-    fun deleteStudent(@Path("id") id: String) : Observable<Void>
+    @DELETE("Students/{id}")
+    fun deleteStudent(@Path("id") id: String) : Completable
 
-    // https://tut.by/api/students
-    @DELETE("students")
-    fun deleteStudent(@Body student: StudentDeleteRequest) : Observable<Void>
+    @POST("Students")
+    fun addStudent(@Body student: StudentAddRequest) : Completable
+
+    @GET("Students")
+    fun searchStudents(@Query("where") search: String) : Observable<List<StudentResponse>>
 }

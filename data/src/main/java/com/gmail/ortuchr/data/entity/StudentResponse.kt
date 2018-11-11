@@ -1,11 +1,18 @@
 package com.gmail.ortuchr.data.entity
 
+import android.text.format.DateFormat
 import com.google.gson.annotations.SerializedName
 
 data class StudentResponse(
-
-        @SerializedName("id")
-        val id: String,
+        @SerializedName("name")
         val name: String,
+
+        @SerializedName("url")
+        val url: String,
+
+        @SerializedName("age")
         val age: Int,
-        val url: String) : DataEntity
+
+        @SerializedName("objectId")
+        val id: String
+) : DataEntity

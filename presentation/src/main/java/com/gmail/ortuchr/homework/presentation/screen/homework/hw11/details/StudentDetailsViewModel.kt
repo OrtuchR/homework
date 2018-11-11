@@ -14,9 +14,9 @@ import io.reactivex.rxkotlin.subscribeBy
 class StudentDetailsViewModel : BaseViewModel<StudentRouter>() {
 
     val isProgressEnabled = ObservableBoolean(false)
-    val editTextStudentName = ObservableField<String>("no data")
-    val editTextStudentAge = ObservableField<String>("no data")
-    val editTextStudentUrl = ObservableField<String>("no data")
+    val editTextStudentName = ObservableField<String>("")
+    val editTextStudentAge = ObservableField<String>("")
+    val editTextStudentUrl = ObservableField<String>("")
     val isStudentExist = ObservableBoolean(true)
 
 
