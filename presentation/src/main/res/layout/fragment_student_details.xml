@@ -34,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@={viewModel.editTextStudentName}"
+            android:hint="@string/studentNameHint"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextStudentUrl" />
@@ -46,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@={viewModel.editTextStudentAge}"
+            android:hint="@string/studentAgeHint"
             app:layout_constraintEnd_toStartOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/editTextStudentName" />
 
@@ -59,6 +61,7 @@
             android:layout_marginEnd="8dp"
             android:inputType="textUri"
             android:text="@={viewModel.editTextStudentUrl}"
+            android:hint="@string/studentUrlHint"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline8" />

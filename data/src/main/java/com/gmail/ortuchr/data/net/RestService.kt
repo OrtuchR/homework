@@ -54,7 +54,7 @@ class RestService(private val apiUrl: String) {
         return restApi.deleteStudent(student.id)
     }
 
-    fun addStudent(student: StudentAddRequest) : Completable {
+    fun addStudent(student: StudentAddRequest) : Observable<StudentResponse> {
         return restApi.addStudent(student)
     }
 

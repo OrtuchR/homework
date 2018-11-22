@@ -20,5 +20,5 @@ interface StudentRepository : BaseRepository {
 
     fun delete(delete: StudentDelete): Completable
 
-    fun add(add: StudentAdd): Completable
+    fun add(add: StudentAdd): Observable<Student>
 }

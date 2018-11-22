@@ -40,7 +40,7 @@ class StudentListFragment : BaseMvvmFragment<
         binding.listRecyclerView.setHasFixedSize(true)
 
         RxTextView.textChanges(binding.searchEditText)
-                //.throttleFirst(1, TimeUnit.SECONDS)
+                .throttleLast(1, TimeUnit.SECONDS)
                 .subscribeBy {
                     viewModel.search(it.toString())
                 }

@@ -76,8 +76,8 @@ class StudentRepositorySinglton() : StudentRepository {
         return Completable.complete()
     }
 
-    override fun add(add: StudentAdd): Completable {
+    override fun add(add: StudentAdd): Observable<Student> {
         list.add(Student(SystemClock.currentThreadTimeMillis().toString(), add.name, add.age, add.url))
-        return Completable.complete()
+        return Observable.just(Student(SystemClock.currentThreadTimeMillis().toString(), add.name, add.age, add.url))
     }
 }

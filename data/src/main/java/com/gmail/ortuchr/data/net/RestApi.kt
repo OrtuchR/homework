@@ -22,7 +22,7 @@ interface RestApi {
     fun deleteStudent(@Path("id") id: String) : Completable
 
     @POST("Students")
-    fun addStudent(@Body student: StudentAddRequest) : Completable
+    fun addStudent(@Body student: StudentAddRequest) : Observable<StudentResponse>
 
     @GET("Students")
     fun searchStudents(@Query("where") search: String) : Observable<List<StudentResponse>>

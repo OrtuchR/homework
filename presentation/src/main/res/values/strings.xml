@@ -60,7 +60,7 @@
     <string name="textAge">Age: </string>
     <string name="textYearsOld"> years old</string>
     <string name="studentNameHint">Enter name ..</string>
-    <string name="studentAgeHint">Enter age ..</string>
+    <string name="studentAgeHint">Age</string>
     <string name="studentUrlHint">Enter url ..</string>
     <string name="buttonDelete">Delete</string>
     <string name="buttonUpdate">Update</string>

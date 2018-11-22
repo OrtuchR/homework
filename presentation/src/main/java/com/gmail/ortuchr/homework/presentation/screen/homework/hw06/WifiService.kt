@@ -9,7 +9,7 @@ import android.support.v4.content.LocalBroadcastManager
 
 class WifiService : Service() {
 
-    private val mBinder: IBinder = LocalBinder();
+    private val mBinder: IBinder = LocalBinder()
     private lateinit var manager : WifiManager
     private val changeWiFiIntent = Intent("com.gmail.ortuchr.homework.CHANGE_WIFI")
 
