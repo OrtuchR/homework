@@ -39,10 +39,12 @@ class StudentListFragment : BaseMvvmFragment<
         binding.listRecyclerView.layoutManager = LinearLayoutManager(context)
         binding.listRecyclerView.setHasFixedSize(true)
 
-        RxTextView.textChanges(binding.searchEditText)
+        addToDisposable(
+                RxTextView.textChanges(binding.searchEditText)
                 .throttleLast(1, TimeUnit.SECONDS)
                 .subscribeBy {
                     viewModel.search(it.toString())
                 }
+        )
     }
 }

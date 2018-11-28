@@ -11,6 +11,7 @@ import android.net.wifi.WifiManager
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import com.gmail.ortuchr.homework.R
 import com.gmail.ortuchr.homework.app.App
 import com.gmail.ortuchr.homework.databinding.FragmentStudentDetailsBinding
@@ -77,6 +78,7 @@ class StudentDetailsFragment : BaseMvvmFragment<
                 binding.buttonAddStudent.isClickable = false
                 binding.buttonDeleteStudent.isClickable = false
                 binding.buttonUpdateStudent.isClickable = false
+                Toast.makeText(context, "Can't update database without internet", Toast.LENGTH_SHORT).show()
             }
         }
 

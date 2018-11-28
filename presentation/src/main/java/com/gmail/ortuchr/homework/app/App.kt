@@ -1,7 +1,9 @@
 package com.gmail.ortuchr.homework.app
 
 import android.app.Application
+import com.crashlytics.android.Crashlytics
 import com.squareup.leakcanary.LeakCanary
+import io.fabric.sdk.android.Fabric
 
 class App : Application() {
 
@@ -22,5 +24,6 @@ class App : Application() {
             return
         }
         LeakCanary.install(this)
+        Fabric.with(this, Crashlytics())
     }
 }

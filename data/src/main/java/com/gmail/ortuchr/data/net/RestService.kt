@@ -15,6 +15,7 @@ import java.util.concurrent.TimeUnit
 class RestService(private val apiUrl: String) {
 
     private val restApi: RestApi
+    private val restParser: RestErrorParser
 
     init {
 
@@ -27,6 +28,7 @@ class RestService(private val apiUrl: String) {
                 .setLevel(HttpLoggingInterceptor.Level.BODY))
 
         val gson = Gson()
+        restParser = RestErrorParser(gson)
 
         val retrofit = Retrofit.Builder()
                 .baseUrl(apiUrl)
@@ -39,26 +41,38 @@ class RestService(private val apiUrl: String) {
     }
 
     fun getStudents() : Observable<List<StudentResponse>> {
-        return restApi.getStudents()
+        return restApi
+                .getStudents()
+                .compose(restParser.parseError())
     }
 
     fun getStudentById(id: String) : Observable<StudentResponse> {
-        return restApi.getStudentsById(id)
+        return restApi
+                .getStudentsById(id)
+                .compose(restParser.parseError())
     }
 
     fun updateStudent(student: StudentRequest) : Completable {
-        return restApi.updateStudent(student.id, student)
+        return restApi
+                .updateStudent(student.id, student)
+                //.compose(restParser.parseError())
     }
 
     fun deleteStudent(student: StudentDeleteRequest) : Completable {
-        return restApi.deleteStudent(student.id)
+        return restApi
+                .deleteStudent(student.id)
+                //.compose(restParser.parseError())
     }
 
     fun addStudent(student: StudentAddRequest) : Observable<StudentResponse> {
-        return restApi.addStudent(student)
+        return restApi
+                .addStudent(student)
+                .compose(restParser.parseError())
     }
 
     fun searchStudents(student: StudentSearchRequest) : Observable<List<StudentResponse>> {
-        return restApi.searchStudents(transformToSearchName(student.name))
+        return restApi
+                .searchStudents(transformToSearchName(student.name))
+                .compose(restParser.parseError())
     }
 }
